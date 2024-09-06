@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class TesteDoWhile2 {
+
+	public static void main(String[] args) {
+		Scanner myObj = new Scanner(System.in);
+		System.out.println("Insira um número de 1 a 10: ");
+		
+		int numero = myObj.nextInt();
+		int contador;
+		int resutado;
+		
+		if (numero>10 || numero<1) {
+			System.out.println("Número fora do intervalo permitido.");
+		} else {
+			
+			
+			
+			
+			
+			
+		}
+		
+	}
+
+}

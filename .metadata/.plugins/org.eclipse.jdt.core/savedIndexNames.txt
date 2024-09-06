@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\36129382024.1n\Desktop\Eduardo ADS - Noite\Programação I\Projetos\.metadata\.plugins\org.eclipse.jdt.core
+2637065166.index
+2063150393.index
+1865797976.index
+1384108868.index
+1558566374.index

@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+
+public class TesteIfElseifElse2 {
+	public static void main(String[] args) {
+		Scanner myObj = new Scanner(System.in);
+		System.out.println("Digite o salário: ");
+		
+		float salario = myObj.nextFloat();
+		
+		if (salario <= 2826.66f) {
+			System.out.println("O total de IR a ser pago é R$ 0,00");
+		} else if ((salario > 2826.66f) && (salario<= 3751.05f) ) {
+			float valorIR = (salario * 0.15f);
+			System.out.println("O total de IR a ser pago é R$ "+ valorIR+" e a alíquota é de 15%");
+		} else if ((salario > 3751.06f) && (salario <= 4664.68f) ) {
+			float valorIR = (salario * 0.225f);
+			System.out.println("O total de IR a ser pago é R$ "+ valorIR+" e a alíquota é de 22.5%");
+		} else {
+			float valorIR = (salario * 0.275f);
+			System.out.println("O total de IR a ser pago é R$ "+ valorIR+" e a alíquota é de 27.5%");			
+		}
+		
+		
+	}
+
+}
