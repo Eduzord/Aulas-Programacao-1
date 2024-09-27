@@ -17,17 +17,17 @@ public class TesteIfElseifElse2 {
 			System.out.println("O salário líquido é R$" + salario);
 		} else if ((salario > 2826.66f) && (salario <= 3751.05f)) {
 			valorIR = (salario * 0.15f);
-			salarioLiquido = salario - valorIR;
+			salarioLiquido = salario - valorIR - 354.80f;
 			System.out.println("O total de IR a ser pago é R$ " + valorIR + " e a alíquota é de 15%");
 			System.out.println("O salário líquido é R$" + salarioLiquido);
 		} else if ((salario > 3751.06f) && (salario <= 4664.68f)) {
 			valorIR = (salario * 0.225f);
-			salarioLiquido = salario - valorIR;
+			salarioLiquido = salario - valorIR - 636.13f;
 			System.out.println("O total de IR a ser pago é R$ " + valorIR + " e a alíquota é de 22.5%");
 			System.out.println("O salário líquido é R$" + salarioLiquido);
 		} else {
 			valorIR = (salario * 0.275f);
-			salarioLiquido = salario - valorIR;
+			salarioLiquido = salario - valorIR - 869.36f;
 			System.out.println("O total de IR a ser pago é R$ " + valorIR + " e a alíquota é de 27.5%");
 			System.out.println("O salário líquido é R$" + salarioLiquido);
 		}
