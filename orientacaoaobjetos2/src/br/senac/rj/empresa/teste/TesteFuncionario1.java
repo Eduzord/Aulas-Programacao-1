@@ -17,7 +17,7 @@ public class TesteFuncionario1 {
 		+"Cargo: "+funcionario1.cargo+"\n"
 		+"Salario antes da bonificação: "+funcionario1.salario);
 		
-		System.out.println("Valor da bonificação: "+funcionario1.aplicarBonificacao(funcionario1.cargo));
+		System.out.println("Valor da bonificação: "+funcionario1.aplicarBonificacao());
 		System.out.println("Salário após bonificação: "+funcionario1.salario);
 		
 

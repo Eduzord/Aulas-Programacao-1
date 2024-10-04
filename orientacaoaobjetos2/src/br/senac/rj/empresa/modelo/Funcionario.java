@@ -6,22 +6,19 @@ public class Funcionario {
 	public int cargo;
 	public double salario;
 	
-	public double aplicarBonificacao(int cargo) {
+	public double aplicarBonificacao() {
 		double valorBonificacao;
 		switch (cargo) {
 		case 1:
-			valorBonificacao = salario * 0.2; 
-			salario = salario + valorBonificacao;
+			valorBonificacao = salario * 0.2; 			
 						
 			break;
 		case 2:
 			valorBonificacao = salario * 0.4; 
-			salario = salario + valorBonificacao;
 						
 			break;
 		case 3:
 			valorBonificacao = salario * 0.6; 
-			salario = salario + valorBonificacao;
 			
 			break;
 
@@ -30,6 +27,7 @@ public class Funcionario {
 			
 			break;
 		}
+		salario = salario + valorBonificacao;
 		return valorBonificacao;
 	}
 	
